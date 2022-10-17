@@ -23,7 +23,6 @@ async function checkIfOutOfStock() {
       await telegramAlert("In stock");
     } else {
       console.log("Out of stock");
-      await telegramAlert("Out of stock");
     }
   } catch (e) {
     console.log(e)
