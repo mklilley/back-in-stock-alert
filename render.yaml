@@ -1,6 +1,6 @@
  services:
   - type: web
-    name: proxy
+    name: out-of-stock
     plan: free
     env: node
     region: frankfurt
