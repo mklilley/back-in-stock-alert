@@ -2,10 +2,9 @@ const axios = require("axios");
 const schedule = require("node-schedule");
 require("dotenv").config();
 
-const outOfStockText = "Back in stock soon";
+const outOfStockText = process.env.OUT_OF_STOCK_TEXT;
 
-const url =
-  "https://ao.com/product/eib15050a1duk1-indesit-fridge-freezer-white-79565-28.aspx";
+const url = process.env.URL;
 
 const job = schedule.scheduleJob("*/5 * * * *", function (fireDate) {
   console.log(fireDate);
