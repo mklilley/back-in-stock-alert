@@ -1,4 +1,4 @@
-# Out of stock alert
+# Back in stock alert
 
 A web service that will check whether an out of stock item you want to buy online has become available and then message you on Telegram.
 
